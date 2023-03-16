@@ -1,0 +1,20 @@
+package com.company;
+
+
+public class ConcatenacionDeTextos {
+    public static void main(String[] args) {
+        // Creamos un array de textos
+        String[] textos = {"Hola", "mundo", "cruel", "!"};
+
+        // Creamos una variable para guardar la concatenación
+        String concatenacion = "";
+
+        // Recorremos el array y concatenamos los textos
+        for (int i = 0; i < textos.length; i++) {
+            concatenacion += textos[i];
+        }
+
+        // Imprimimos el resultado final
+        System.out.println(concatenacion);
+    }
+}
